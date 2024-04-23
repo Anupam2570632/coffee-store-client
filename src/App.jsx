@@ -12,6 +12,9 @@ function App() {
             <Link className="underline underline-offset-2 text-blue-700 font-bold" to={'/addCoffee'}>Add more coffees</Link>
           </li>
           <li className="px-4 py-2 bg-cyan-500">
+            <Link className="underline underline-offset-2 text-blue-700 font-bold" to={'/allUsers'}>Users</Link>
+          </li>
+          <li className="px-4 py-2 bg-cyan-500">
             <Link className="underline underline-offset-2 text-blue-700 font-bold" to={'/allCoffees'}>See all coffees</Link>
           </li>
           <li className="px-4 py-2 bg-cyan-500">
